@@ -1,0 +1,66 @@
+// Colors
+$darkBlue1:hsl(217, 28%, 15%);
+$darkBlue2: hsl(218, 28%, 13%);
+$darkBlue3: hsl(219, 30%, 18%);
+$darkBlue4: hsl(216, 53%, 9%);
+$white: hsl(0, 0%, 100%);
+$cyan: hsl(176, 68%, 64%);
+$blue: hsl(198, 60%, 50%);
+
+html{
+    //scroll-behavior: smooth;
+    overflow-x:hidden;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;   
+    background-color:$darkBlue2;       
+    
+}
+
+a:focus, a:active{
+    border:none;
+    outline: none;
+}
+
+input:active, 
+input:focus{
+    border: 2px #5ECAC3 solid;
+    outline: none;
+}
+
+button:focus, a:active{
+    border:none;
+    outline: none;
+}
+
+h1{
+    font-family: 'Raleway',k sans-serif;
+    font-size:1.7em;
+    line-height:35px;
+
+    @media (min-width:768px){       
+        font-size:2.5em;
+    }
+}
+h2{
+    font-family: 'Raleway',k sans-serif;
+    font-size:1.3em;  
+    margin-block-start:0.6em;
+    margin-block-end:0.6em;
+
+    @media (min-width:768px){       
+        font-size:2.35em;
+    }
+}
+
+p{
+    color:#ffffffcc;   
+}
+
+ul{
+    list-style:none;
+    padding:0px;
+    margin:0px;
+}

@@ -1,0 +1,102 @@
+.btn{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    font-family: 'Raleway',k sans-serif;
+    font-weight:700;
+    border-radius:24px;
+    border:none;
+
+    color:#f3f3f3;
+    
+    background: linear-gradient(to left, #64E1D9, #339FCC);    
+    
+
+    &__primary{
+
+        width:100%;
+        max-width:235px;
+        height:50px;
+        margin-top:20px;
+        font-size:1.1em;
+        padding:0 10px;
+        
+        letter-spacing:0.6px;
+
+        text-decoration:none;
+        transition: 1s ease-in;   
+        &:hover{
+            background: linear-gradient(to left, #64e1d985, #339fcc80);        
+        }
+
+    }    
+    &__email{
+        width:100%;        
+        height:50px;
+        
+        font-size:1.1em;
+        padding:0 12px;
+     
+        letter-spacing:0.6px;
+
+        text-decoration:none;
+        cursor:pointer;
+        margin-top: 15px;
+
+        @media (min-width:1024px){
+            width:32%;
+            margin-top: none;
+        }
+        transition: 1s;
+        &:hover{
+            background: linear-gradient(to left, #64e1d985, #339fcc80);        
+        }      
+        &:active{
+            outline: none;
+            border:none;
+        }  
+        
+    }   
+
+    
+
+    
+
+}
+
+
+.btn-link{
+    display:inline-block;
+    color:rgba($white, 0.75);
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    font-size:1.04em;
+    text-decoration:none;
+    
+    padding-bottom:5px;
+    color:$cyan;
+    border-bottom:1px $cyan solid;
+    font-size:1.2em;
+    letter-spacing:0.7px;
+
+    &:hover{        
+        color:$white;                           
+        border-bottom:1px $white solid;
+    }        
+    &::after{
+        content:url(/images/icon-arrow.svg);
+        vertical-align: middle;
+        margin-left:7px;
+        
+        fill:red;
+        
+    }
+    
+}
+
+
+
+
+    
